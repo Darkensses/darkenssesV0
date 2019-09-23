@@ -1,0 +1,24 @@
+.header {
+  /*background: linear-gradient(to bottom, #11998e, #38ef7d); /*#282a36;*/
+  background: rgba(0, 0, 0, 0.9);
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 50% 6%;
+  border-bottom-right-radius: 50% 6%;
+}
+
+.header__particles {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.div__userMe {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  transform: translateY(-40px);
+}
